@@ -1,0 +1,33 @@
+{
+  "name": "Minimalistic Python Terminal Environment",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        // Terminal Settings
+        "terminal.integrated.fontFamily": "JetBrains Mono",
+        "terminal.integrated.fontSize": 14,
+        "terminal.integrated.cursorStyle": "line",
+        "terminal.integrated.scrollback": 10000,
+        "terminal.integrated.tabs.enabled": false,
+
+        // General Workspace Settings
+        "workbench.startupEditor": "none",
+        "workbench.statusBar.visible": false,
+        "workbench.activityBar.visible": false,
+        "workbench.iconTheme": "fira-code-material-icon-theme",
+        "editor.minimap.enabled": false,
+        "editor.renderWhitespace": "boundary",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        // Font and Theme
+        "dracula-theme.theme-dracula",
+        "aleleba.fira-code-material-icon-theme",
+
+        // Terminal Utilities
+        "formulahendry.auto-close-tag"
+      ]
+    }
+  }
+}
