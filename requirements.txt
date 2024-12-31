@@ -1,0 +1,5 @@
+asyncio
+datetime
+dotenv
+pytz
+telethon

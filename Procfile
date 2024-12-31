@@ -1,0 +1,1 @@
+worker: python new_year_countdown.py
